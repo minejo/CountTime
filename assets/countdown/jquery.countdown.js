@@ -52,7 +52,7 @@
 			updateDuo(8, 9, s);
 			
 			// Calling an optional user supplied callback
-			options.callback(d, h, m, s);
+			options.callback(y,d, h, m, s);
 			
 			// Scheduling another call of this function in 1s
 			setTimeout(tick, 1000);
